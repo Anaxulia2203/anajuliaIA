@@ -1,340 +1,98 @@
 export const perguntas = [
-{
-enunciado: "Assim que saiu da escola você se depara com uma nova
-tecnologia, um chat que consegue responder todas as dúvidas que uma
-pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o
-primeiro pensamento?",
-alternativas: [
-{
-texto: "Isso é assustador!",
-afirmacao: [
-"No início ficou com medo do que essa tecnologia pode
-
-fazer.",
-
-"Achou assustador pensar na velocidade na qual a
-
-tecnologia está avançando."
-
-],
-proxima: 1,
-},
-{
-texto: "Isso é maravilhoso!",
-afirmacao: [
-"Quis saber como usar IA no seu dia a dia.",
-"Pensou que IA pode ajudar em tarefas da sua vida."
-],
-proxima: 2,
-},
-]
-},
-{
-enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi
-pensando nisso que uma professora de tecnologia da escola decidiu fazer
-uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede
-que você escreva um trabalho sobre o uso de IA em sala de aula. Qual
-atitude você toma?",
-alternativas: [
-{
-texto: "Utiliza uma ferramenta de busca na internet que
-utiliza IA para que ela ajude a encontrar informações relevantes para o
-trabalho e explique numa linguagem que facilite o entendimento.",
-
-afirmacao: [
-"Conseguiu utilizar a IA para buscar informações
-
-úteis.",
-
-"Percebeu que a IA pode ajudar a encontrar
-informações úteis na internet de forma mais rápida e direcionada.",
-
-"Percebeu que a IA consegue explicar termos
-complicados de forma simplificada e isso ajudou muito suas pesquisas
-sobre assuntos complexos."
-],
-proxima: 3,
-},
-{
-texto: "Escreve o trabalho com base nas conversas que
-teve com colegas, algumas pesquisas na internet e conhecimentos próprios
-sobre o tema.",
-
-afirmacao: [
-"Sentiu mais facilidade em utilizar seus próprios
-
-recursos para escrever seu trabalho.",
-
-"Achou que era muito mais fácil procurar por
-respostas utilizando alguns meios mais tradicionais mesmo que levasse
-mais tempo.",
-
-"Sentiu um pouco de medo de quais dados pessoais seus
-a IA poderia utilizar e por isso prefere fazer suas coisas com pouca
-intromissão da tecnologia."
-
-],
-proxima: 4,
-},
-]
-},
-{
-enunciado: "Um chat com IA pode ser uma boa alternativa para
-realizar tarefas do dia a dia e foi pensando nisso que uma professora de
-tecnologia da escola decidiu fazer uma sequência de aulas sobre esta
-tecnologia. No fim de uma aula ela pede que você escreva um trabalho
-sobre o uso de IA em sala de aula. Qual atitude você toma?",
-alternativas: [
-{
-texto: "Utiliza uma ferramenta de busca na internet que
-utiliza IA para que ela ajude a encontrar informações relevantes para o
-trabalho e explique numa linguagem que facilite o entendimento.",
-
-afirmacao: [
-"Conseguiu utilizar a IA para buscar informações
-
-úteis.",
-
-"Percebeu que a IA pode ajudar a encontrar
-informações úteis na internet de forma mais rápida e direcionada.",
-"Percebeu que a IA consegue explicar termos
-complicados de forma simplificada e isso ajudou muito suas pesquisas
-sobre assuntos complexos."
-],
-proxima: 3,
-},
-{
-
-texto: "Escreve o trabalho com base nas conversas que
-teve com colegas, algumas pesquisas na internet e conhecimentos próprios
-sobre o tema.",
-
-afirmacao: [
-"Sentiu mais facilidade em utilizar seus próprios
-
-recursos para escrever seu trabalho.",
-
-"Achou que era muito mais fácil procurar por
-respostas utilizando alguns meios mais tradicionais mesmo que levasse
-mais tempo.",
-
-"Sentiu um pouco de medo de quais dados pessoais seus
-a IA poderia utilizar e por isso prefere fazer suas coisas com pouca
-intromissão da tecnologia."
-
-],
-proxima: 4,
-},
-]
-},
-{
-enunciado: "Ferramentas de busca que utilizam IA podem facilitar
-muito nosso processo de busca por informações. Agora imagine que você
-precisa participar de um debate sobre o quanto a IA impacta no trabalho
-do futuro. Qual posicionamento tomar?",
-alternativas: [
-{
-texto: "Defende a ideia de que a IA pode criar novas
-
-oportunidades de emprego e melhorar habilidades humanas.",
-
-afirmacao: [
-"Vem impulsionando a inovação na área de IA e luta
-
-para abrir novos caminhos profissionais com IA.",
-
-"Participa ativamente do desenvolvimento de soluções
-
-criativas e na melhoria de processos em IA."
-
-],
-proxima: 5,
-},
-{
-texto: "Me preocupo com as pessoas que perderão seus
-empregos para máquinas e defendem a importância de proteger os
-trabalhadores.",
-
-afirmacao: [
-"Sua preocupação com as pessoas motivou a criar um
-grupo de estudos entre trabalhadores para discutir meios de utilização de
-IA de forma ética.",
-
-"Criou grupos de ética voltado para IA e busca
-ativamente reduzir as desigualdades geradas pela automação."
-
-],
-proxima: 6,
-},
-]
-},
-
-{
-enunciado: "Utilizar informações próprias traz um toque pessoal
-ao nosso trabalho. Agora imagine que você precisa participar de um debate
-sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento
-tomar?",
-alternativas: [
-{
-texto: "Defende a ideia de que a IA pode criar novas
-
-oportunidades de emprego e melhorar habilidades humanas.",
-
-afirmacao: [
-"Vem impulsionando a inovação na área de IA e luta
-
-para abrir novos caminhos profissionais com IA.",
-
-"Participa ativamente do desenvolvimento de soluções
-
-criativas e na melhoria de processos em IA."
-
-],
-proxima: 5,
-},
-{
-texto: "Me preocupo com as pessoas que perderão seus
-empregos para máquinas e defendem a importância de proteger os
-trabalhadores.",
-
-afirmacao: [
-"Sua preocupação com as pessoas motivou a criar um
-grupo de estudos entre trabalhadores para discutir meios de utilização de
-IA de forma ética.",
-
-"Criou grupos de ética voltado para IA e busca
-ativamente reduzir as desigualdades geradas pela automação."
-
-],
-proxima: 6,
-},
-]
-},
-{
-enunciado: "Novas tecnologias trazem novos desafios, por isso
-após a elaboração do trabalho escrito, a professora realizou um debate
-entre a turma para entender como foi realizada a pesquisa e escrita.
-Nessa conversa também foi levantado um ponto muito importante: como a IA
-impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-alternativas: [
-{
-texto: "Defende a ideia de que a IA pode criar novas
-
-oportunidades de emprego e melhorar habilidades humanas.",
-
-afirmacao: [
-"Vem impulsionando a inovação na área de IA e luta
-
-para abrir novos caminhos profissionais com IA.",
-
-"Participa ativamente do desenvolvimento de soluções
-
-criativas e na melhoria de processos em IA."
-
-],
-proxima: 7,
-
-},
-{
-texto: "Me preocupo com as pessoas que perderão seus
-empregos para máquinas e defendem a importância de proteger os
-trabalhadores.",
-
-afirmacao: [
-"Sua preocupação com as pessoas motivou a criar um
-grupo de estudos entre trabalhadores para discutir meios de utilização de
-IA de forma ética.",
-
-"Criou grupos de ética voltado para IA e busca
-ativamente reduzir as desigualdades geradas pela automação."
-
-],
-proxima: 7,
-},
-]
-},
-{
-enunciado: "É muito importante refletir sobre os trabalhadores do
-futuro. Por isso a professora realizou um debate entre a turma para
-entender como foi realizada a pesquisa e escrita. Nessa conversa também
-foi levantado um ponto muito importante: como a IA impacta o trabalho do
-futuro. Nesse debate, como você se posiciona?",
-alternativas: [
-{
-texto: "Defende a ideia de que a IA pode criar novas
-
-oportunidades de emprego e melhorar habilidades humanas.",
-
-afirmacao: [
-"Vem impulsionando a inovação na área de IA e luta
-
-para abrir novos caminhos profissionais com IA.",
-
-"Participa ativamente do desenvolvimento de soluções
-
-criativas e na melhoria de processos em IA."
-
-],
-proxima: 7,
-},
-{
-texto: "Me preocupo com as pessoas que perderão seus
-empregos para máquinas e defendem a importância de proteger os
-trabalhadores.",
-
-afirmacao: [
-"Sua preocupação com as pessoas motivou a criar um
-grupo de estudos entre trabalhadores para discutir meios de utilização de
-IA de forma ética.",
-
-"Criou grupos de ética voltado para IA e busca
-ativamente reduzir as desigualdades geradas pela automação."
-
-],
-proxima: 7,
-},
-]
-},
-
-{
-enunciado: "Ao final da discussão, você precisou criar uma imagem
-no computador que representasse o que pensa sobre IA. E agora?",
-alternativas: [
-{
-texto: "Criar uma imagem utilizando uma plataforma de
-
-design como o Paint.",
-afirmacao: [
-"Notou também que muitas pessoas não sabem ainda
-utilizar as ferramentas tradicionais e decidiu compartilhar seus
-conhecimentos de design utilizando ferramentas de pintura digital para
-iniciantes.",
-
-"Ainda acha que os meios de desenho tradicionais são
-mais eficazes para a criatividade, por isso vem estimulando pessoas em
-suas redes sociais a fazer pintura em aquarela."
-
-],
-},
-{
-texto: "Criar uma imagem utilizando um gerador de imagem
-
-de IA.",
-
-afirmacao: [
-"Acelerou o processo de criação de trabalhos
-utilizando geradores de imagem e agora consegue ensinar pessoas que
-sentem dificuldades em desenhar manualmente como utilizar também!",
-"Compartilhou artes em redes sociais como forma de
-
-ensinar como se comunicar através da arte.",
-
-"Percebeu que muitas pessoas têm dificuldade em
-expressar suas ideias desenhando e acha que a IA é capaz de empoderar
-essas pessoas a tirarem ideias do papel."
-
-],
-},
-]
-}
+    {
+        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um aplicativo que promete rastrear a localização exata de qualquer pessoa usando apenas o número do celular. Qual o primeiro pensamento?",
+        alternativas: [
+            {
+                texto: "Isso é assustador!",
+                afirmacao: [
+                    "No início ficou com medo de como a sua própria privacidade poderia estar exposta na internet.",
+                    "Achou assustador pensar na facilidade com que ferramentas de vigilância estão avançando."
+                ]
+            },
+            {
+                texto: "Isso é maravilhoso!",
+                afirmacao: [
+                    "Quis saber como usar o aplicativo para garantir a segurança dos seus familiares no dia a dia.",
+                    "Foi atrás de vídeos, artigos e mais informações sobre como ferramentas de geolocalização funcionam."
+                ]
+            }
+        ]
+    },
+    {
+        enunciado: "Com a descoberta desta tecnologia, chamada Monitoramento Digital, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre proteção de dados. No fim de uma aula ela pede que você escreva um trabalho sobre a importância da cibersegurança em sala de aula. Qual atitude você toma?",
+        alternativas: [
+            {
+                texto: "Utiliza uma ferramenta de busca na internet que analisa termos de uso para ajudar a encontrar brechas em aplicativos populares e explicar de forma simples.",
+                afirmacao: [
+                    "Conseguiu utilizar ferramentas de análise para buscar informações úteis sobre privacidade.",
+                    "Percebeu que a análise de dados ajuda a encontrar riscos na internet de forma mais rápida e direcionada.",
+                    "Percebeu que entender de segurança digital consegue desmistificar termos complicados de contratos e isso ajudou nas pesquisas."
+                ]
+            },
+            {
+                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas em livros e conhecimentos próprios sobre o tema.",
+                afirmacao: [
+                    "Sentiu mais facilidade em utilizar suas próprias experiências práticas para escrever seu trabalho.",
+                    "Achou que era muito mais fácil debater o assunto utilizando meios tradicionais mesmo que levasse mais tempo.",
+                    "Sentiu um pouco de medo de como as grandes empresas usam seus dados pessoais e por isso prefere navegar com pouca exposição na rede."
+                ]
+            }
+        ]
+    },
+    {
+        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como o vazamento de dados impacta o cidadão do futuro. Nesse debate, como você se posiciona?",
+        alternativas: [
+            {
+                texto: "Defende a ideia de que a transparência de dados pode criar novas oportunidades de segurança e melhorar a confiança entre os usuários.",
+                afirmacao: [
+                    "Vem impulsionando a inovação na área de proteção de dados e luta para abrir novos caminhos profissionais em segurança digital.",
+                    "Participa ativamente do desenvolvimento de soluções criativas para proteger contas e na melhoria de senhas na internet."
+                ]
+            },
+            {
+                texto: "Me preocupo com as pessoas que terão suas identidades roubadas por golpistas e defendo a importância de proteger os usuários mais vulneráveis.",
+                afirmacao: [
+                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre colegas para discutir meios de navegar na internet de forma ética.",
+                    "Criou grupos de discussão voltados para a privacidade e busca ativamente reduzir golpes gerados por engenharia social."
+                ]
+            }
+        ]
+    },
+    {
+        enunciado: "Ao final da discussão, você precisou criar um infográfico no computador que representasse o que pensa sobre privacidade na rede. E agora?",
+        alternativas: [
+            {
+                texto: "Criar o infográfico utilizando uma ferramenta de desenho simples, fazendo diagramas e formas manualmente.",
+                afirmacao: [
+                    "Notou também que muitas pessoas não sabem ainda configurar a privacidade de suas redes e decidiu compartilhar tutoriais simples para iniciantes.",
+                    "Ainda acha que criar alertas visuais diretos é mais eficaz para a conscientização, por isso vem estimulando cartazes físicos na escola."
+                ]
+            },
+            {
+                texto: "Criar o infográfico utilizando um gerador automatizado de relatórios de segurança.",
+                afirmacao: [
+                    "Acelerou o processo de criação de materiais informativos utilizando softwares e agora consegue ensinar pessoas com dificuldades técnicas a se protegerem também!",
+                    "Compartilhou dicas de segurança em suas redes sociais como forma de ensinar a comunidade a blindar seus perfis.",
+                    "Percebeu que muitas pessoas têm dificuldade em entender os perigos digitais e acha que relatórios visuais ajudam a tirar os cuidados do papel."
+                ]
+            }
+        ]
+    },
+    {
+        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu usar um gerador de textos automático. O problema é que o texto cita fontes falsas que não existem na internet. O que você faz?",
+        alternativas: [
+            {
+                texto: "Aceitar o texto pronto é uma forma de poupar tempo, por isso não vê problema em entregar o conteúdo sem checar as fontes.",
+                afirmacao: [
+                    "Infelizmente passou a aceitar qualquer informação da internet sem checar e agora se sente vulnerável a cair em notícias falsas."
+                ]
+            },
+            {
+                texto: "A internet possui muita desinformação e é preciso manter a atenção pois sistemas automatizados erram, por isso revisar as fontes e checar os fatos é essencial.",
+                afirmacao: [
+                    "Percebeu que toda plataforma digital reproduz dados sem verificação humana e muito do que encontrava não refletia a verdade, sabendo agora que as ferramentas servem apenas como apoio."
+                ]
+            }
+        ]
+    }
 ];
